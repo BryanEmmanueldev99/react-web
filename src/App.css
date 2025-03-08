@@ -77,6 +77,11 @@ input.form-control.me-2.hero_search {
   width: 350px;
 }
 
+.img-fluid.shadow-sm.patito {
+  border-radius: 8px !important;
+  border: 3px solid #a18b0e;
+}
+
 .footer{
   background-color: #373737;
   color: #fff;

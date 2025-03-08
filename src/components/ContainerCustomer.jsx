@@ -1,6 +1,6 @@
 import React from 'react'
 import Picture from './Picture'
-import Lampara from '../../public/pato.jpg'
+import Lampara from '../../public/mariposa.webp'
 import Button  from './Button'
 import ReactImageMagnify from 'react-image-magnify'
 
@@ -10,7 +10,7 @@ const ContainerCustomer = () => {
     <div className='container mt-5 shadow-sm bg-white p-4 rounded mb-5'>
         <div className="container d-flex contenedor">
             <div className="picture-box">
-                <ReactImageMagnify className='img-fluid shadow-sm rounded patito'
+                <ReactImageMagnify className='img-fluid shadow-sm patito'
                     {...{
                       smallImage: {
                         alt: 'Wristwatch by Ted Baker London',
