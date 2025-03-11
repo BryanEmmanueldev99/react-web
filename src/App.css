@@ -77,6 +77,25 @@ input.form-control.me-2.hero_search {
   width: 350px;
 }
 
+.listado-productos {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.card-img-top {
+  /* width: 200px; */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.card {
+  width: 250px;
+  /* display: flex
+; */
+}
+
+
 .img-fluid.shadow-sm.patito {
   border-radius: 8px !important;
   border: 3px solid #a18b0e;
@@ -171,6 +190,17 @@ button.btn.btn-shop {
 .container.btns.d-flex {
   justify-content: start;
   gap: 1em;
+}
+
+
+.mb-5.mt-5.listado-productos {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+button.btn.btn-primary.maps {
+  margin-bottom: 1em;
 }
 
 .container_nav {
